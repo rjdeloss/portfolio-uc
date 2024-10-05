@@ -1,0 +1,41 @@
+{
+    "particles" : {
+        "number": {
+            "value" : 150
+        },
+        "size": {
+            "value": 3,
+            "random": true
+        },
+        "line_linked": {
+            "enable": true,
+            "color": "#ffffff",
+            "width": 1,
+            "opacity": 1
+        },
+        "move": {
+            "enable": true,
+            "speed": 4,
+            "random": true
+        },
+        "interactivity": {
+            "events": {
+                "onHover": {
+                    "enable": true,
+                    "mode": "bubble"
+                },
+                "onClick": {
+                    "enable": true,
+                    "mode": "push"
+                }
+            }
+        },
+        "modes": {
+            "bubble": {
+                "distance": 800,
+                "size": 10,
+                "duration": 2
+            }
+        }
+    }
+}

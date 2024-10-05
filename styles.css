@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font: normal 75% Helvetica, sans-serif;
+  color: #fff;
+}
+canvas {
+  display: block;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+#particles-js {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  background-color: #0f172a;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.container {
+  position:absolute;
+  display: flex;
+  top: 30%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+  height: 325px;
+  margin: 0 auto;
+  background: red;
+}
+
+.info {
+  position: relative;
+  padding: 0 2.5rem 0 1.5rem;
+}
+
+
+
+.social-media-icons {
+  list-style: none; 
+  display: flex;
+  margin-top: 3rem;
+  padding: 0;
+  gap: 1.5rem; 
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0.25rem 0 0;
+}
+
+.link {
+  margin-right: 5px;
+}
+
+a {
+  display: block;
+  color: #fff;
+}
+
+svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.resume {
+  display: inline-flex;
+  align-items: baseline;
+  font-weight: 600; 
+  line-height: 1.25;
+  transition: color 0.3s ease;
+}
+
+.resume:hover{
+    color: #fbd38d; 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ h1 {
+    font-size: rem;
+  }
+  .container {
+    position:absolute;
+    display: flex;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    height: 300px;
+    margin: 0 auto;
+    background: red;
+  }
+}
