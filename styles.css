@@ -10,11 +10,23 @@ canvas {
 h1 {
   font-size: 3.5rem;
 }
+
+a {
+  display: block;
+  color: #fff;
+}
+
+svg {
+  height: 2rem;
+  width: 2rem;
+}
+
 #particles-js {
   position: absolute;
   width: 100%;
   height: 100vh;
   overflow: auto;
+  padding: 4rem 0;
   background-color: #0f172a;
   background-image: url("");
   background-repeat: no-repeat;
@@ -57,28 +69,6 @@ h1 {
 
 .link {
   margin-right: 5px;
-}
-
-a {
-  display: block;
-  color: #fff;
-}
-
-svg {
-  height: 2rem;
-  width: 2rem;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
 }
 
 .resume {
